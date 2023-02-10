@@ -6,12 +6,22 @@
 }
 
 .keys{
-    display: flex;
+    display: flex row;
+    text-align: center;
     justify-content: space-around;
     align-items: center;
     height: 100%;
     background:url(images/img.avif) center no-repeat;
     background-size: cover;
+}
+h2 {
+    color: white;
+}
+.key-row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
 }
 .key{
     width: 70px;
